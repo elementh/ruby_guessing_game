@@ -6,6 +6,6 @@ class Secret
   end
 
   def matches(num)
-    return @@number == num
+    @@number == num
   end
 end
