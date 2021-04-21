@@ -1,4 +1,5 @@
 class Secret
+  @@number
 
   def initialize(min, max)
     @@number = rand(min..max)
